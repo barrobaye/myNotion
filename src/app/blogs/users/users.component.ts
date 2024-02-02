@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './users.component.css'
 })
 export class UsersComponent {
-  const myfirts = document.getElementById("mincon"); 
+  //const myfirts = document.getElementById("mincon"); 
 
 
 }
