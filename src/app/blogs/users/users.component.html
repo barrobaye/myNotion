@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <div class="row">
       <!-- Barre de navigation verticale -->
-      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+      <nav class="col-md-2 d-none d-md-block sidebar">
         <div class="sidebar-sticky">
           <ul class="nav flex-column">
             <!-- Cercle avec la première lettre du nom d'utilisateur -->
@@ -20,22 +20,22 @@
             <!-- Icônes et liens de navigation -->
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <i class="bi bi-house-door"></i> Accueil
+                <i class="bi bi-house" id="icon"></i> Accueil
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <i class="bi bi-search"></i> Recherche
+                <i class="bi bi-search" id="icon"></i> Recherche
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <i class="bi bi-gear"></i> Paramètres
+                <i class="bi bi-gear" id="icon"></i> Paramètres
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <i class="bi bi-file-earmark"></i> Nouvelle Page
+                <i class="bi bi-file-earmark" id="icon"></i> Nouvelle Page
               </a>
             </li>
           </ul>
@@ -43,9 +43,41 @@
       </nav>
   
       <!-- Contenu principal -->
-      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+      <main role="main" class=" container-fluid ml-sm-auto col-lg-10 px-md-4">
+        <div class="headnav">
+          <div class="headgauch"><i class="bi bi-scissors" id="icon"></i><span id="icon">Task</span></div>
+          <div class="headroit"><span id="sousicon">Derniére modification : il y'a 2 h</span><span id="icon">Partager</span><i class="bi bi-alarm" id="icon"></i><i class="bi bi-star" id="icon"></i> <i class="bi bi-three-dots" id="icon"></i></div>
+        </div>
+        <div class="row container-fluid descrip"><h1 class="titre">Task</h1>
+          <textarea type="hidden" class="rows myareap" name="" id="" cols="40" rows="5">
+          Use this template to track your personal tasks.
+          Click + New to create a new task directly on this board.
+          Click an existing task to add additional context or subtasks.
+          </textarea> 
+        </div> 
+        <div class="headtable">
+            <div class="btngauche">
+              <button class="tab"> <i class="bi bi-table" id="icon"></i>  Board View</button>
+              <button class="tab"><i class="bi bi-table" id="icon"></i>  Tableau Kanban</button>
+            </div>
+            <div class="btndroite">
+              <button class="nouv">Nouveau |<i class="bi bi-chevron-down"></i></button>
+            </div>
+           
+        </div> 
+        <hr id="icon" style="width: 90%;margin-left: 120px;margin-top: 0px;">
+        <div class="tablebi">
+            <div class="todo">
+              <div class="todoleft"><button class="btntodo">To Do</button> <button>0</button>
+              </div>
+              <div class="todorignt"><button type="button" class=" px-3 btn mincon"><i class="bi bi-three-dots" id="smallicon" aria-hidden="true"></i></button>
+                <button class="px-3  btn  mincon"><i class="bi bi-plus" id="smallicon"></i></button>
+              </div>
+            </div>
+        </div>
         <!-- Votre contenu principal ici -->
       </main>
     </div>
+   
   </div>
   

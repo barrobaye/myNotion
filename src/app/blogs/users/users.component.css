@@ -1,0 +1,110 @@
+
+.sidebar{
+    background-color: #202020;
+    height: 940px;
+}
+.headnav{
+    margin-top: 10px;
+    justify-content: space-between;
+    display: flex;
+    width: 1600px;
+    height: 40px;
+   
+}
+.titre{
+    color: #D3D3D3;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+.descrip{
+    margin-left: 120px;
+    width: 550px;
+    height: auto;
+}
+.headtable{
+    display: flex;
+    width: 90%;
+    margin-left: 120px;
+    justify-content: space-between;
+   ;
+
+}
+button{
+    color: #D3D3D3;
+    background-color: transparent;
+    border: none;
+    transition: border-bottom 0.3s ease;
+}
+.tab:focus,
+.tab:active{
+    border-bottom: 2px solid #D3D3D3;
+}
+.mincon{
+    width: 5px;
+}
+.mincon:focus{
+    background-color: #0077D4;
+   }
+.todorignt{
+        width: 80px;
+}
+.nouv{
+    text-align: center;
+    background-color:#0077D4 ;
+    height: 24px;
+    border-radius: 5%;
+
+}
+.tablebi{
+    display: flex;
+    
+    width: 90%;
+    margin-left: 120px;
+}
+.todo{
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 200px;
+    background-color: black;
+    border: none;
+    
+}
+input.hover{
+    bottom: none;
+}
+#icon{
+    color: #D3D3D3;
+}
+#smallicon{
+    color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+}
+#sousicon{
+    color: #555555;
+}
+.headgauch{
+    display: flex;
+    width: 55px;
+    justify-content: space-between;
+}
+.headroit{
+    margin-right: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.myareap{
+    background-color: black;
+    color:#D3D3D3 ;
+    padding: 0px;
+    border: rgb(223, 223, 223);
+    outline: none;
+    font-size: smaller;
+    height: auto;
+    resize: none;
+}
